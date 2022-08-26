@@ -1,0 +1,31 @@
+.homepage-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+
+  background-color: var(--clr-primary-white);
+}
+
+.homepage-wrapper h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* .carousel-container {
+  height: 675px;
+} */
+
+.build-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.price-guide {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  display: grid;
+  gap: 1rem;
+}

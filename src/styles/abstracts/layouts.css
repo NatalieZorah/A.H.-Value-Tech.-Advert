@@ -1,0 +1,13 @@
+.shadow-box {
+  border: 2px solid var(--clr-primary-black);
+  border-radius: 5px;
+  box-shadow: 3px 8px 8px 3px #18462d;
+}
+
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}

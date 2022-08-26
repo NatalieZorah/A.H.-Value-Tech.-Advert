@@ -1,0 +1,14 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 3rem;
+  border-bottom: 1px solid var(--clr-primary-black);
+  background: radial-gradient(
+    circle,
+    var(--clr-secondary-dark-green) 60%,
+    var(--clr-secondary-light-green)
+  );
+  color: var(--clr-primary-white);
+  font-weight: 600;
+}
