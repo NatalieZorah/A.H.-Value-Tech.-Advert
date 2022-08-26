@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/A.H.-Value-Tech.-Advert/static/css/main.4c7ae2fc.css",
-    "main.js": "/A.H.-Value-Tech.-Advert/static/js/main.cff3a6df.js",
+    "main.css": "/A.H.-Value-Tech.-Advert/static/css/main.7b585800.css",
+    "main.js": "/A.H.-Value-Tech.-Advert/static/js/main.7a9f349a.js",
     "static/media/RGB_fans_black_&_red_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/RGB_fans_black_&_red_tower.7e84e835c764b596f579.jpg",
     "static/media/RGB_fans_black_&_red_tower_2.jpg": "/A.H.-Value-Tech.-Advert/static/media/RGB_fans_black_&_red_tower_2.610a6a4c2fff300ccb6d.jpg",
     "static/media/white_fan_water_cooled_2.jpg": "/A.H.-Value-Tech.-Advert/static/media/white_fan_water_cooled_2.c93a37592bcff31ade11.jpg",
@@ -12,11 +12,11 @@
     "static/media/pink_fans_black_&_RGB_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/pink_fans_black_&_RGB_tower.cf4e6f9913c6817f22fb.jpg",
     "static/media/pink_fans_black_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/pink_fans_black_tower.aae525dff96a4f5f7185.jpg",
     "index.html": "/A.H.-Value-Tech.-Advert/index.html",
-    "main.4c7ae2fc.css.map": "/A.H.-Value-Tech.-Advert/static/css/main.4c7ae2fc.css.map",
-    "main.cff3a6df.js.map": "/A.H.-Value-Tech.-Advert/static/js/main.cff3a6df.js.map"
+    "main.7b585800.css.map": "/A.H.-Value-Tech.-Advert/static/css/main.7b585800.css.map",
+    "main.7a9f349a.js.map": "/A.H.-Value-Tech.-Advert/static/js/main.7a9f349a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c7ae2fc.css",
-    "static/js/main.cff3a6df.js"
+    "static/css/main.7b585800.css",
+    "static/js/main.7a9f349a.js"
   ]
 }
