@@ -12,9 +12,10 @@
   font-weight: 500;
 }
 
-/* .carousel-container {
-  height: 675px;
-} */
+.carousel-container {
+  height: 100%;
+  overflow: hidden;
+}
 
 .build-details {
   display: grid;
@@ -28,4 +29,5 @@
   grid-column-start: 2;
   display: grid;
   gap: 1rem;
+  padding: 1rem;
 }

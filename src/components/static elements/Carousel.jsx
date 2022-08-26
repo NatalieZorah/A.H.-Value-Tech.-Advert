@@ -17,7 +17,7 @@ import "../../styles/static elements/Carousel.css";
 
 function CarouselFade() {
   return (
-    <Carousel fade>
+    <Carousel interval={4000}>
       <Carousel.Item>
         <img className="d-block w-100" src={Custom1} alt="First slide" />
       </Carousel.Item>

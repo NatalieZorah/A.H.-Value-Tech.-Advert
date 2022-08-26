@@ -7,13 +7,15 @@ import "../../styles/pages/Homepage.css";
 const Home = () => {
   return (
     <div className="homepage-wrapper">
-      <div className="carousel-container grid-row-span-2">
+      <div className="carousel-container shadow-box grid-row-span-2">
         <CarouselFade />
       </div>
       <div className="build-details shadow-box">
-        <h3 className="text-align-center grid-col-span-2">OVERVIEW</h3>
-        <h5>Where to Start</h5>
+        <h3 className="text-align-center grid-col-span-2 headline-type-title">
+          OVERVIEW
+        </h3>
         <p className="overview-statement grid-col-span-2">
+          <h5 className="headline-type-subtitle">Where to Start</h5>
           Do you need a value Gaming Build within the budget you set, but dont
           really know where to begin? Even if your budget is as low as $200, I
           will work hard to find you the best parts within that range and
@@ -23,8 +25,8 @@ const Home = () => {
           with the Ann Hiro guarantee that I will put as much care into your
           build as I would my own.
         </p>
-        <h5>Configuration</h5>
         <p className="details-statement grid-col-span-2">
+          <h5 className="headline-type-subtitle">Configuration</h5>
           Once we've settled on a price range, we'll go over any specifics for
           the components on the list below, and if you have any preferences with
           them.
@@ -60,9 +62,9 @@ const Home = () => {
         {/* <ul className="parts-list-right"></ul> */}
       </div>
       <div className="price-guide shadow-box">
-        <h3 className="text-align-center">PRICING</h3>
-        <h5>How I work</h5>
+        <h3 className="text-align-center headline-type-title">PRICING</h3>
         <p className="pricing-statement">
+          <h5 className="headline-type-subtitle">How I work</h5>
           Once your budget has been established, we will discuss if used and, or
           refurbished PC components are an option, for even greater value, and I
           will do extensive testing to ensure the parts will stand up to the
@@ -71,7 +73,7 @@ const Home = () => {
           me know how in the know you want to be.
         </p>
         <p className="additional-costs">
-          <h5>Additional Costs</h5>
+          <h5 className="headline-type-subtitle">Additional Costs</h5>
           <ul className="cost-list">
             <li className="cost-list-item">
               <span>
@@ -88,6 +90,13 @@ const Home = () => {
               </span>
             </li>
           </ul>
+        </p>
+        <p className="resolution-statement">
+          <h5 className="headline-type-subtitle">My Promise</h5>
+          My goal is to provide affordable computers to those who want or need
+          them. From anything from gaming to productivity. I will use my
+          knowledge of both the market, and the hardware to get you the best
+          deal.
         </p>
       </div>
     </div>

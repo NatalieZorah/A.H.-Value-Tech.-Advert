@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <div className="header-wrapper">
       <h1>ANN HIRO VALUE TECHNOLOGY</h1>
+      <h3>YOUR PC ON A BUDGET</h3>
     </div>
   );
 };

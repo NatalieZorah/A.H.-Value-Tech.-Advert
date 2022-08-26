@@ -1,9 +1,10 @@
 .carousel {
   height: 100%;
-}
-.carousel-item {
-  background-repeat: no-repeat;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   overflow: hidden;
+}
+
+.carousel-item {
+  background-repeat: no-repeat;
 }

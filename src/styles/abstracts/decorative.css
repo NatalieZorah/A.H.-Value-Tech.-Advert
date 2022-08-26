@@ -1,0 +1,38 @@
+.headline-type-title,
+.headline-type-subtitle {
+  position: relative;
+}
+
+.headline-type-title::after {
+  --gradient-angle: 179.5deg;
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5rem);
+  height: 5px;
+  top: 100%;
+  left: -0.5rem;
+  background: linear-gradient(
+    var(--gradient-angle),
+    var(--clr-secondary-dark-green) 0%,
+    var(--clr-secondary-dark-green) 50%,
+    transparent 55%,
+    transparent 100%
+  );
+}
+
+.headline-type-subtitle::after {
+  --gradient-angle: 179.5deg;
+  content: "";
+  position: absolute;
+  width: calc(20% + 0.5rem);
+  height: 2.5px;
+  top: 100%;
+  left: -0.5rem;
+  background: linear-gradient(
+    var(--gradient-angle),
+    var(--clr-secondary-light-green) 0%,
+    var(--clr-secondary-light-green) 50%,
+    transparent 55%,
+    transparent 100%
+  );
+}

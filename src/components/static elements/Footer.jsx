@@ -1,5 +1,6 @@
 import React from "react";
-import { FaTwitter, FaYoutube } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 // * stylesheet
 import "../../styles/static elements/Footer.css";
@@ -17,24 +18,18 @@ const Footer = () => {
         </ul>
       </div>
       <div className="social-links">
-        <ul className="social-links-list">
-          <li className="social-link">
-            <a
-              className="social-link-twitter"
-              href="https://twitter.com/HiroAnnSFW?s=20&t=2D1PafM06RWxWwIIVeT3bA"
-            >
-              <FaTwitter />
-            </a>
-          </li>
-          <li className="social-link">
-            <a
-              className="social-link-youtube"
-              href="https://www.youtube.com/channel/UCvBnXQHwj_LG-_jTtMc18tg"
-            >
-              <FaYoutube />
-            </a>
-          </li>
-        </ul>
+        <a
+          className="social-link-twitter"
+          href="https://twitter.com/HiroAnnSFW?s=20&t=2D1PafM06RWxWwIIVeT3bA"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="1x" />
+        </a>
+        <a
+          className="social-link-youtube"
+          href="https://www.youtube.com/channel/UCvBnXQHwj_LG-_jTtMc18tg"
+        >
+          <FontAwesomeIcon icon={faYoutube} size="1x" />
+        </a>
       </div>
     </div>
   );

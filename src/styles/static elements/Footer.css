@@ -1,7 +1,7 @@
 .footer-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 2.5rem 3rem;
+  padding: 1rem;
   border-bottom: 1px solid var(--clr-primary-black);
   background: radial-gradient(
     circle,
@@ -9,10 +9,21 @@
     var(--clr-secondary-light-green)
   );
   color: var(--clr-primary-white);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 35px;
   text-decoration: none;
 }
 
-.footer-wrapper ul {
-  list-style: none;
-  text-decoration: none;
+.social-link-youtube {
+  color: #eb3223;
+}
+
+.social-link-twitter {
+  color: #49a1eb;
 }
