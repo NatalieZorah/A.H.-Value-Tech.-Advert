@@ -1,6 +1,6 @@
 .homepage-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 1rem;
   padding: 1rem;
 
@@ -13,7 +13,7 @@
 }
 
 .carousel-container {
-  height: 100%;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -25,9 +25,34 @@
 }
 
 .price-guide {
-  grid-row-start: 2;
-  grid-column-start: 2;
   display: grid;
   gap: 1rem;
   padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .homepage-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carousel-container {
+    height: 100%;
+    grid-row-start: 1;
+  }
+
+  .price-guide {
+    grid-row-start: 2;
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-container {
+    grid-row: span 2;
+  }
+
+  .price-guide {
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
 }

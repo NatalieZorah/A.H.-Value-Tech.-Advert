@@ -5,3 +5,31 @@
 .text-align-center {
   text-align: center;
 }
+
+h1.font-type-header {
+  font-size: 20px;
+}
+
+h3.font-type-header {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  h1.font-type-header {
+    font-size: 30px;
+  }
+
+  h3.font-type-header {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1.font-type-header {
+    font-size: 40px;
+  }
+
+  h3.font-type-header {
+    font-size: 35px;
+  }
+}

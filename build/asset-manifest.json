@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/A.H.-Value-Tech.-Advert/static/css/main.ba6c3627.css",
-    "main.js": "/A.H.-Value-Tech.-Advert/static/js/main.7a9f349a.js",
-    "static/media/RGB_fans_black_&_red_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/RGB_fans_black_&_red_tower.7e84e835c764b596f579.jpg",
-    "static/media/RGB_fans_black_&_red_tower_2.jpg": "/A.H.-Value-Tech.-Advert/static/media/RGB_fans_black_&_red_tower_2.610a6a4c2fff300ccb6d.jpg",
-    "static/media/white_fan_water_cooled_2.jpg": "/A.H.-Value-Tech.-Advert/static/media/white_fan_water_cooled_2.c93a37592bcff31ade11.jpg",
-    "static/media/white_fan_water_cooled.jpg": "/A.H.-Value-Tech.-Advert/static/media/white_fan_water_cooled.5ca357c797d97925de30.jpg",
-    "static/media/RGB_fans_figurine_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/RGB_fans_figurine_tower.c9307c280b7822d90014.jpg",
-    "static/media/low_profile_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/low_profile_tower.93c122d7418ac3daa448.jpg",
-    "static/media/green_&_blue_fans_black_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/green_&_blue_fans_black_tower.a7d9dee91fe143c48330.jpg",
-    "static/media/pink_fans_black_&_RGB_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/pink_fans_black_&_RGB_tower.cf4e6f9913c6817f22fb.jpg",
-    "static/media/pink_fans_black_tower.jpg": "/A.H.-Value-Tech.-Advert/static/media/pink_fans_black_tower.aae525dff96a4f5f7185.jpg",
-    "index.html": "/A.H.-Value-Tech.-Advert/index.html",
-    "main.ba6c3627.css.map": "/A.H.-Value-Tech.-Advert/static/css/main.ba6c3627.css.map",
-    "main.7a9f349a.js.map": "/A.H.-Value-Tech.-Advert/static/js/main.7a9f349a.js.map"
+    "main.css": "/static/css/main.bef73a9b.css",
+    "main.js": "/static/js/main.95b1c35c.js",
+    "static/media/RGB_fans_black_&_red_tower.jpg": "/static/media/RGB_fans_black_&_red_tower.7e84e835c764b596f579.jpg",
+    "static/media/RGB_fans_black_&_red_tower_2.jpg": "/static/media/RGB_fans_black_&_red_tower_2.610a6a4c2fff300ccb6d.jpg",
+    "static/media/white_fan_water_cooled_2.jpg": "/static/media/white_fan_water_cooled_2.c93a37592bcff31ade11.jpg",
+    "static/media/white_fan_water_cooled.jpg": "/static/media/white_fan_water_cooled.5ca357c797d97925de30.jpg",
+    "static/media/RGB_fans_figurine_tower.jpg": "/static/media/RGB_fans_figurine_tower.c9307c280b7822d90014.jpg",
+    "static/media/low_profile_tower.jpg": "/static/media/low_profile_tower.93c122d7418ac3daa448.jpg",
+    "static/media/green_&_blue_fans_black_tower.jpg": "/static/media/green_&_blue_fans_black_tower.a7d9dee91fe143c48330.jpg",
+    "static/media/pink_fans_black_&_RGB_tower.jpg": "/static/media/pink_fans_black_&_RGB_tower.cf4e6f9913c6817f22fb.jpg",
+    "static/media/pink_fans_black_tower.jpg": "/static/media/pink_fans_black_tower.aae525dff96a4f5f7185.jpg",
+    "index.html": "/index.html",
+    "main.bef73a9b.css.map": "/static/css/main.bef73a9b.css.map",
+    "main.95b1c35c.js.map": "/static/js/main.95b1c35c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba6c3627.css",
-    "static/js/main.7a9f349a.js"
+    "static/css/main.bef73a9b.css",
+    "static/js/main.95b1c35c.js"
   ]
 }
